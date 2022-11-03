@@ -15,7 +15,7 @@ const Result = ({ answer }) => {
   function incorrect(){
     let data=0;
     for(let i=0; i<5; i++){
-      if(answer[i] != question[i].ans) data++;
+      if(answer[i] !== question[i].ans) data++;
     }
     return data;
   }
