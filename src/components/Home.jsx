@@ -8,7 +8,6 @@ const Home = () => {
     }
   return (
     <div className='cover'>
-        <h3 className='heading'><span className='stic'>⍙</span>Upraised</h3>
       <div className="round"><h1 className='quiz'>Quiz</h1></div>
       <button onClick={handlebtn} className='btn'>Start</button>
     </div>
